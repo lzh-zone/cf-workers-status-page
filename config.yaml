@@ -18,7 +18,7 @@ monitors:
   - id: blog # unique identifier
     name: blog
     description: 'God help those who help themselves.' # default=empty
-    url: 'https://blog.010702.xyz/' # URL to fetch
+    url: 'https://010702.xyz/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
@@ -33,7 +33,7 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: SHANHU
-    name: SHANHUYY
+    name: 珊瑚影院
     url: 'https://shanhuyy.com/'
     method: GET
     expectStatus: 200
